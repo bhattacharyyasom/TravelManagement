@@ -1,0 +1,22 @@
+apply plugin: 'application'
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    compile project(':tw.travel.flights')
+    runtime project(':tw.travel.flights')
+    compile project(':tw.travel.payments')
+    runtime project(':tw.travel.payments')
+}
+
+mainClassName = "$moduleName/twtraveldesk.StubMain"
+
+run {
+    jvmArgs = [
+            "-XX:+PrintGCDetails"
+    ]
+
+    applicationDefaultJvmArgs = [
+            "-XX:+PrintGCDetails"
+    ]
+}

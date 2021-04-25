@@ -1,0 +1,5 @@
+rootProject.name = 'TravelManagement'
+include 'tw.travel.desk'
+include 'tw.travel.flights'
+include 'tw.travel.payments'
+

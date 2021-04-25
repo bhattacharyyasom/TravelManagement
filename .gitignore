@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/tw.travel.desk/build/
+/tw.travel.desk/build/classes/java/main/
+/tw.travel.flights/build/
+/tw.travel.flights/build/classes/java/main/
+.idea
