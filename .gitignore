@@ -5,3 +5,7 @@
 /tw.travel.flights/build/
 /tw.travel.flights/build/classes/java/main/
 .idea
+/tw.travel.payments/build/
+/tw.travel.payments/build/classes/java/main/
+/tw.travel.paymentsinterface/build/
+/tw.travel.paymentsinterface/build/classes/java/main/
