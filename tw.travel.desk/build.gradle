@@ -5,10 +5,10 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
     compile project(':tw.travel.flights')
     runtime project(':tw.travel.flights')
-    compile project(':tw.travel.payments')
+    compile project(':tw.travel.paymentsinterface')
+    runtime project(':tw.travel.paymentsinterface')
     runtime project(':tw.travel.payments')
 }
-
 mainClassName = "$moduleName/twtraveldesk.StubMain"
 
 run {

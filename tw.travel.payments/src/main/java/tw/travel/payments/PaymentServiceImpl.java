@@ -1,8 +1,10 @@
 package tw.travel.payments;
 
+import tw.travel.paymentsinterface.PaymentService;
+
 public class PaymentServiceImpl implements PaymentService {
     @Override
-    public boolean pay() {
-        return false;
+    public String pay() {
+        return "transactionId";
     }
 }

@@ -1,4 +1,6 @@
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    compile project(':tw.travel.paymentsinterface')
+    runtime project(':tw.travel.paymentsinterface')
 }
